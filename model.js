@@ -3,5 +3,5 @@ const solveSchema = new mongoose.Schema({
   name: String,
   age: Number,
 });
-const solve = mongoose.model("solve", solveSchema);
-module.exports = solve;
+const customer = mongoose.model("customer", solveSchema);
+module.exports = customer;
